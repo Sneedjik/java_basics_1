@@ -9,6 +9,7 @@ public class Main {
         byte aByte = 0;   // 8bit   -128 +127                       (-2^8) .. (+2^8 -1)
         short aShort = 0; // 16bit  -32768 +32767                   (-2^16) .. (+2^16 -1)
         int aInt = 0;     // 32bit  -4.294.967.296 +4.294.967.295   (-2^32) .. (+2^32 -1)
+        Integer intWrapper = 0; // Обёртка
         long aLong = 0;   // 64bit  ещё больше                      (-2^64) .. (+2^64 -1)
 
         // Типы с плавающей точкой
@@ -17,6 +18,7 @@ public class Main {
 
         // Символьный тип
         char aChar = 'a'; // хранит код символа , в данном случае 'a'
+        Character charWrapper = 'a'; // Обёртка
 
         // Логический тип
         boolean aBoolean = true; // Истина или Ложь
@@ -64,5 +66,10 @@ public class Main {
         } else {
             childName = "Y";
         }
+
+        // key word или ключевое слово new
+        String name = new String("I");
+        String name = "Y";
+
     }
 }
