@@ -1,4 +1,4 @@
-package com.sneedjik;
+package javaBasics;
 
 import java.util.List;
 
