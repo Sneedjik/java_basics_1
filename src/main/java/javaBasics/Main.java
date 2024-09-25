@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
 
         // Целочисленные типы
-        byte aByte = 0;   // 8bit   -128 +127                       (-2^8) .. (+2^8 -1)
-        short aShort = 0; // 16bit  -32768 +32767                   (-2^16) .. (+2^16 -1)
-        int aInt = 0;     // 32bit  -4.294.967.296 +4.294.967.295   (-2^32) .. (+2^32 -1)
+        byte aByte = 0;   // 8bit   -128 +127                                              (-2^8) .. (+2^8 -1)
+        short aShort = 0; // 16bit  -32768 +32767                                          (-2^16) .. (+2^16 -1)
+        int aInt = 0;     // 32bit  -2,147,483,648 +2,147,483,647                          (-2^32) .. (+2^32 -1)
         Integer intWrapper = 0; // Обёртка
-        long aLong = 0;   // 64bit  ещё больше                      (-2^64) .. (+2^64 -1)
+        long aLong = 0;   // 64bit  -9,223,372,036,854,775,808 +9,223,372,036,854,775,807  (-2^64) .. (+2^64 -1)
 
         // Типы с плавающей точкой
         float aFloat = 0.0F;  //  32bit
@@ -68,8 +68,8 @@ public class Main {
         }
 
         // key word или ключевое слово new
-        String name = new String("I");
-        String name = "Y";
+//        String name = new String("I");
+//        String name = "Y";
 
     }
 }
