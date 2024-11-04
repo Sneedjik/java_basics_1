@@ -1,9 +1,11 @@
 package homeWork;
 
 public class HomeWorkJavaBasics {
+
     public static void main(String[] args) {
-        int over = 2147483647;
-        double normal = 500000.0;
-        System.out.println(over - normal);
+        byte aByte = 127;
+        byte overflowByte = (byte) (aByte + 1); // Переполнение
+        System.out.println(overflowByte); // Из-за переполнения выводит только младшие 8 бит результата
     }
+
 }
